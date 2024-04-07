@@ -1,9 +1,5 @@
 # MongoDb Replication
 
-<img align="center" width="480"  src='./replication.png'/>
-
-<img align="center" width="250"  src='./replsetfolder.png'/>
-
 ## Configure Primary Node (Port 22334)
 ```javascript
 mongod --port 22334 --dbpath C:\Replication\primary --replSet rs
